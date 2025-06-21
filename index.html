@@ -3,46 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Моя первая страница</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            color: #333;
-        }
-        h1 {
-            color: #2c3e50;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 10px;
-        }
-        .footer {
-            margin-top: 40px;
-            text-align: center;
-            font-size: 0.9em;
-            color: #7f8c8d;
-        }
-    </style>
+    <title>Мой сайт с CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Добро пожаловать на мою страницу!</h1>
-    
-    <p>Это простая HTML-страница, созданная в качестве примера.</p>
-    
-    <h2>Немного информации</h2>
-    
-    <p>HTML (HyperText Markup Language) - это стандартный язык разметки для создания веб-страниц.</p>
-    
-    <ul>
-        <li>Простота использования</li>
-        <li>Широкая поддержка браузерами</li>
-        <li>Возможность создавать структурированные документы</li>
-    </ul>
-    
-    <div class="footer">
-        <p>© 2023 Моя простая страница. Все права защищены.</p>
-    </div>
+    <header>
+        <h1>Добро пожаловать на мой сайт!</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner">
+            <h2>Красивый баннер</h2>
+            <p>Этот сайт создан с использованием HTML и CSS</p>
+        </section>
+
+        <section class="features">
+            <article>
+                <h3>Простота</h3>
+                <p>Чистый и понятный код</p>
+            </article>
+            <article>
+                <h3>Современность</h3>
+                <p>Используются актуальные технологии</p>
+            </article>
+            <article>
+                <h3>Адаптивность</h3>
+                <p>Подходит для всех устройств</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Мой сайт. Все права защищены.</p>
+    </footer>
 </body>
 </html>
